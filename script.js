@@ -121,30 +121,33 @@ if ("serviceWorker" in navigator) {
 const search = document.getElementById("search");
 const cards = document.querySelectorAll(".tool-card");
 
-search.addEventListener("input", function () {
+search.addEventListener("input",()=>{
 
-    const value = this.value.toLowerCase();
 
-    cards.forEach(card => {
+const value =
+search.value.toLowerCase();
 
-        const title = card.querySelector("h2").textContent.toLowerCase();
 
-        const text = card.textContent.toLowerCase();
+const filtered =
+toolsData.filter(tool=>
 
-        if (
-            title.includes(value) ||
-            text.includes(value)
-        ) {
 
-            card.style.display = "block";
+tool.name.toLowerCase()
+.includes(value)
 
-        } else {
+||
 
-            card.style.display = "none";
+tool.description
+.toLowerCase()
+.includes(value)
 
-        }
 
-    });
+);
+
+
+
+displayTools(filtered);
+
 
 });
 
