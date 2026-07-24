@@ -1,3 +1,104 @@
+let toolsData = [];
+
+const toolsContainer =
+document.getElementById("tools");
+
+
+async function loadTools(){
+
+try{
+
+const response =
+await fetch("tools.json");
+
+
+toolsData =
+await response.json();
+
+
+displayTools(toolsData);
+
+
+}
+catch(error){
+
+console.log(
+"Unable to load tools",
+error
+);
+
+}
+
+}
+
+
+
+function displayTools(tools){
+
+
+toolsContainer.innerHTML="";
+
+
+tools.forEach((tool,index)=>{
+
+
+const card=document.createElement("div");
+
+
+card.className="tool-card";
+
+
+card.dataset.category =
+tool.category;
+
+
+card.innerHTML = `
+
+<span class="favorite">
+⭐
+</span>
+
+<h2>
+${tool.icon}
+${tool.name}
+</h2>
+
+<p>
+${tool.description}
+</p>
+
+
+<small>
+${tool.category}
+</small>
+
+
+<br><br>
+
+
+<a href="${tool.url}"
+target="_blank"
+rel="noopener">
+
+Visit Tool
+
+</a>
+
+`;
+
+
+toolsContainer.appendChild(card);
+
+
+
+});
+
+
+}
+
+
+
+loadTools();
 /* ===================================
    AI Tools Directory
    script.js
