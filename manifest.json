@@ -1,0 +1,55 @@
+{
+  "name": "AI Tools Directory",
+  "short_name": "AITools",
+  "description": "Discover the best AI tools for writing, coding, image generation, productivity, video, audio, SEO, and more.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "lang": "en",
+  "categories": [
+    "productivity",
+    "education",
+    "technology",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "AI Tools Directory Home"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search AI Tools",
+      "short_name": "Search",
+      "url": "./#search",
+      "description": "Search the AI tools directory."
+    },
+    {
+      "name": "Featured Tools",
+      "short_name": "Featured",
+      "url": "./#featured",
+      "description": "View featured AI tools."
+    }
+  ]
+}
