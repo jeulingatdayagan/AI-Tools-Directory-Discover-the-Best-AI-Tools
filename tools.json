@@ -1,0 +1,72 @@
+[
+  {
+    "name": "ChatGPT",
+    "category": "Writing",
+    "description": "AI assistant for writing, coding, research, and productivity.",
+    "url": "https://chatgpt.com/",
+    "icon": "🤖"
+  },
+  {
+    "name": "Claude",
+    "category": "Writing",
+    "description": "Advanced AI assistant for analysis and creative work.",
+    "url": "https://claude.ai/",
+    "icon": "🧠"
+  },
+  {
+    "name": "Midjourney",
+    "category": "Image",
+    "description": "Generate stunning AI images from text prompts.",
+    "url": "https://www.midjourney.com/",
+    "icon": "🎨"
+  },
+  {
+    "name": "Leonardo AI",
+    "category": "Image",
+    "description": "Create AI artwork, game assets, and designs.",
+    "url": "https://leonardo.ai/",
+    "icon": "🖼️"
+  },
+  {
+    "name": "Runway",
+    "category": "Video",
+    "description": "AI video generation and creative editing platform.",
+    "url": "https://runwayml.com/",
+    "icon": "🎬"
+  },
+  {
+    "name": "GitHub Copilot",
+    "category": "Coding",
+    "description": "AI coding assistant for developers.",
+    "url": "https://github.com/features/copilot",
+    "icon": "💻"
+  },
+  {
+    "name": "Cursor",
+    "category": "Coding",
+    "description": "AI-powered code editor for developers.",
+    "url": "https://cursor.com/",
+    "icon": "⌨️"
+  },
+  {
+    "name": "Notion AI",
+    "category": "Productivity",
+    "description": "AI writing and productivity assistant.",
+    "url": "https://www.notion.so/product/ai",
+    "icon": "📝"
+  },
+  {
+    "name": "Perplexity AI",
+    "category": "Research",
+    "description": "AI search engine for research and answers.",
+    "url": "https://www.perplexity.ai/",
+    "icon": "🔎"
+  },
+  {
+    "name": "Canva AI",
+    "category": "Design",
+    "description": "AI-powered design and content creation tools.",
+    "url": "https://www.canva.com/",
+    "icon": "✨"
+  }
+]
