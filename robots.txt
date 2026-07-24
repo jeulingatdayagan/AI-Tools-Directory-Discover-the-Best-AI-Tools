@@ -1,0 +1,14 @@
+# ====================================
+# AI Tools Directory
+# robots.txt
+# ====================================
+
+User-agent: *
+Allow: /
+
+# Block internal folders (optional)
+Disallow: /.git/
+Disallow: /.github/
+
+# Sitemap
+Sitemap: https://jeulingatdayagan.github.io/AI-Tools-Directory/sitemap.xml
